@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4aec819-a64e-4e67-9e75-77f1c75e0503" name="Changes" comment="Initial Commit. My implementation of creating a graph" />
+    <list default="true" id="c4aec819-a64e-4e67-9e75-77f1c75e0503" name="Changes" comment="Initial Commit. My implementation of creating a graph">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +42,7 @@
       <recent name="C:\Users\manla\PycharmProjects\Microprocessing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manla\PycharmProjects\Microprocessing\testCases" />
       <recent name="C:\Users\manla\PycharmProjects\Microprocessing" />
     </key>
   </component>
