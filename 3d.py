@@ -1,8 +1,10 @@
 import argparse
 import snap
 import time
+import os
 from GraphDimensions import GraphDimensions
 from ArrayDimensions import ArrayDimensions
+os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz/bin'
 
 
 #Vertex Colors, key being the vertex indices and value being the color
@@ -114,6 +116,22 @@ def print_adjacency_list(G):
         neighbors = [str(neighbor_id) for neighbor_id in node.GetOutEdges()]
         print(f"Node {node.GetId()}: {' '.join(neighbors)}")
 
+def visualize_graph(G, output_file):
+    """
+    Generates a visual representation of the graph using SNAP's DrawGViz.
+
+    Parameters:
+    G: SNAP graph
+    output_file: Filename for the output image (PNG, SVG, etc.)
+    """
+    # Define the layout for the visualization
+    Layout = snap.gvlNeato  # You can also try gvlNeato, gvlTwopi, gvlSfdp, gvlCirco
+
+    # Draw the graph using the specified layout
+    start = time.time()
+    snap.DrawGViz(G, Layout, output_file, "Graph Visualization", True)
+    print(f"Visualization time: {time.time()-start}")
+    print(f"Graph visualization saved to {output_file}")
 def main():
     args = parge_arguments()
 
@@ -141,7 +159,9 @@ def main():
         # Create the graph
         G = snap.TUNGraph.New()
         G = build_graph(G, d_g, d_a, VC, W, EC)
-        print(G.GetEdges())
+        # Visualize the graph
+        output_file = "output/graph.png"
+        visualize_graph(G, output_file)
 
 if __name__ == "__main__":
     main()

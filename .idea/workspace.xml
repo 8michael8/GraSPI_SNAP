@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4aec819-a64e-4e67-9e75-77f1c75e0503" name="Changes" comment="Initial Commit. My implementation of creating a graph" />
+    <list default="true" id="c4aec819-a64e-4e67-9e75-77f1c75e0503" name="Changes" comment="Initial Commit. My implementation of creating a graph">
+      <change afterPath="$PROJECT_DIR$/2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/100x100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/500x500.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/50x50.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/1000x1000.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/1000x1000.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/10x10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/10x10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/manla/PycharmProjects/Microprocessing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "last_opened_file_path": "C:/Users/manla/PycharmProjects/Microprocessing/testCases",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manla\PycharmProjects\Microprocessing\testCases" />
       <recent name="C:\Users\manla\PycharmProjects\Microprocessing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -45,7 +57,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Microprocessing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\manla\PycharmProjects\Microprocessing\3d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.3d" />
       </list>
     </recent_temporary>
   </component>
@@ -99,6 +111,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit. My implementation of creating a graph" />
