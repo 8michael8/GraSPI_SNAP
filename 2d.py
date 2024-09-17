@@ -4,6 +4,8 @@ import time
 import os
 from GraphDimensions import GraphDimensions
 from ArrayDimensions import ArrayDimensions
+from Filtering import Filtering
+from BFS import BFS
 os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz/bin'
 
 
@@ -45,6 +47,7 @@ def read_array(filename, VC, d_a, d_g):
                 for color in row_colors:
                     VC[vertice] = color
                     vertice += 1
+            VC[d_g.n_bulk] = 0 #Green Vertex
         #Success
         return True
     except FileNotFoundError:
@@ -95,6 +98,8 @@ def build_graph(G, d_g, d_a, VC, W, EC):
                     # Add an edge if it doesn't already exist
                     if not G.IsEdge(current_node, neighbor_node):
                         G.AddEdge(current_node, neighbor_node)
+    for i in range(0,d_a.x):
+        G.AddEdge(i, d_g.n_bulk)
     print(f"No Visualization time: {time.time() - start}")
     return G
 
@@ -123,7 +128,7 @@ def visualize_graph(G, output_file):
     output_file: Filename for the output image (PNG, SVG, etc.)
     """
     # Define the layout for the visualization
-    Layout = snap.gvlNeato  # You can also try gvlNeato, gvlTwopi, gvlSfdp, gvlCirco
+    Layout = snap.gvlSfdp  # You can also try gvlNeato, gvlTwopi, gvlSfdp, gvlCirco
 
     # Draw the graph using the specified layout
     start = time.time()
@@ -151,6 +156,8 @@ def main():
     d_g = GraphDimensions()
     d_a = ArrayDimensions()
 
+
+
     if read_array(file, VC, d_a, d_g):
         print("Array successfully read.")
 
@@ -160,6 +167,34 @@ def main():
         # Visualize the graph
         output_file = "output/graph.png"
         visualize_graph(G, output_file)
+
+
+
+    filteredGraph = Filtering(G, VC)
+    SubGraph = filteredGraph.filter()
+
+    outputBlack = "output/filteredBlack.png"
+    outputWhite = "output/filteredWhite.png"
+
+
+    for graph in SubGraph:
+        if graph == 0:
+            visualize_graph(SubGraph[graph], outputBlack)
+        else:
+            visualize_graph(SubGraph[graph], outputWhite)
+
+    paths = {}
+    for node in SubGraph[0].Nodes():
+        bfs = BFS(SubGraph[0], node.GetId(), d_g.n_bulk)
+        path = bfs.bfs()
+        if path and path[0] == bfs.source:
+            paths[node.GetId()] = path
+            print(path)
+        else:
+            paths[node.GetId()] = d_g.n_bulk
+            print("No path found")
+
+
 
 if __name__ == "__main__":
     main()

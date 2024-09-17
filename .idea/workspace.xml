@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4aec819-a64e-4e67-9e75-77f1c75e0503" name="Changes" comment="Initial Commit. My implementation of creating a graph">
-      <change afterPath="$PROJECT_DIR$/2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/100x100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/500x500.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/50x50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filtering.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/3d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/1000x1000.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/1000x1000.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/output/graph.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/graph.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testCases/10x10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/10x10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/50x50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/50x50.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "8Michael"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/8michael8/GraSPI_SNAP",
+    "accountId": "3f15b0ab-1e7f-42ec-bd7d-3ce58a5204f3"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -39,13 +50,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "last_opened_file_path": "C:/Users/manla/PycharmProjects/Microprocessing/testCases",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/manla/PycharmProjects/Microprocessing/testCases&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\manla\PycharmProjects\Microprocessing\testCases" />
