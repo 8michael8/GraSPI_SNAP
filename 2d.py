@@ -189,7 +189,6 @@ def main():
         path = bfs.bfs()
         if path and path[0] == bfs.source:
             paths[node.GetId()] = path
-            print(path)
         else:
             paths[node.GetId()] = d_g.n_bulk
             print("No path found")

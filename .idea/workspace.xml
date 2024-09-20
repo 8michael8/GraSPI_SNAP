@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4aec819-a64e-4e67-9e75-77f1c75e0503" name="Changes" comment="Initial Commit. My implementation of creating a graph">
-      <change afterPath="$PROJECT_DIR$/BFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filtering.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/filteredBlack.dot" beforeDir="false" afterPath="$PROJECT_DIR$/output/filteredBlack.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/filteredBlack.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/filteredBlack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/filteredWhite.dot" beforeDir="false" afterPath="$PROJECT_DIR$/output/filteredWhite.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/filteredWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/filteredWhite.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/output/graph.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/graph.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/10x10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/10x10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/50x50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/50x50.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "8Michael"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;8Michael&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/8michael8/GraSPI_SNAP",
-    "accountId": "3f15b0ab-1e7f-42ec-bd7d-3ce58a5204f3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/8michael8/GraSPI_SNAP&quot;,
+    &quot;accountId&quot;: &quot;3f15b0ab-1e7f-42ec-bd7d-3ce58a5204f3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
