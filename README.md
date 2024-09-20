@@ -21,7 +21,7 @@ Example
 ```bash
 python .\2d.py -a .\testCases\10x10.txt
 ```
-<h3>OUTPUTs</h3>
+<h3>OUTPUTS</h3>
 
 * Runtimes for each algorithm (graph creation, filtering, and BFS)
 * Directory of where the visualization of the graph is
