@@ -1,30 +1,27 @@
-<h1>Installing graspi_networkx via pip</h1>
-<p>Below are instrictions regarding how to install graspi_networkx.</p>
+<h1>SNAP (Stanford Network Analysis Platform)</h1>
+<p>Stanford Network Analysis Platform (SNAP) is a general purpose, high
+performance system for analysis and manipulation of large networks.
+SNAP is written in C++ and it scales to massive graphs with hundreds
+of millions of nodes and billions of edges.</p>
 
 ## INSTALLATION
 1. ```bash
-   pip install graspi-networkx==0.1.5
+   pip install -r requirements.txt
    ```
 2. That's it
 <br>
 <h2>USING THE PACKAGE</h2>
 <p>After installing all dependencies, you're able to follow this formula in the command line</p>
-<h3> importing graspi_networkx via notebook/python script</h3>
-
-```bash
-import graspi_networkx as gn
-```
 <h3> Command Line Formula</h3>
 
 ```bash
-python .\main
+python .\<2d or 3d>.py -a .\testCases\<test file name>.txt
 ```
 Example
 ```bash
-
+python .\2d.py -a .\testCases\10x10.txt
 ```
 <h3>OUTPUTS</h3>
 
-* Nodes and edges for the created graph
-* Nodes and edges for the created subgraph
-* Node 0 represents a blue cathode and Node 1 represents a red anode
+* Runtimes for each algorithm (graph creation, filtering, and BFS)
+* Directory of where the visualization of the graph is
